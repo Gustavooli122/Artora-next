@@ -160,9 +160,9 @@ Componentes incluídos	1 Luva para desenho
     relatedArticles: []
   },{
     id: slugify('Kit de Desenho Profissional Completo com 42 Peças'),
-    name: 'Kit de Desenho Profissional Completo com 42 Peças – Lápis Grafite para Desenho Artístico',
+    name: 'Kit de Desenho Profissional Completo com 42 Peças ',
     description: `## Kit Lápis de Desenho Profissional – 42 Peças
-
+### Lápis Grafite para Desenho Artístico
 * Conjunto completo com 42 peças para desenho artístico e técnico.
 * Inclui lápis de diversas graduações: F, HB, B, 2H a 6H e 2B a 12B.
 * Grafite de alta qualidade para traços suaves, precisos e uniformes.

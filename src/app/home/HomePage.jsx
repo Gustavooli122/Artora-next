@@ -11,10 +11,6 @@ import {Pencil,
   BadgeDollarSign,
   Palette,  ArrowRight, PencilRuler} from 'lucide-react';
 
-export const metadata = {
-  title: "Artora - Materiais de Desenho, Arte e Papelaria",
-  description: "Descubra os melhores materiais para desenho, pintura e estudos. Guias completos, avaliações e recomendações para artistas e estudantes."
-};
 
 const HomePage = () => {
 

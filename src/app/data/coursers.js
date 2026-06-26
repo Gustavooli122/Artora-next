@@ -89,10 +89,7 @@ O curso aborda fundamentos importantes do desenho, incluindo observação, propo
   },
 
   {
-    id: slugify("Anatomia para Desenhistas"),
-    title: "Anatomia para Desenhistas",
-    description:
-      "Estude músculos, proporções e estrutura do corpo humano para desenhar personagens.",
+    id: slugify("Anatomia para Desenhistas")para desenhar personagens.",
     image:
       "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800",
     category: "Anatomia",

@@ -1,8 +1,8 @@
 import { slugify } from "../lib/utils";
 export const initialCourses = [
   {
-    id: slugify("Curso Completo de Desenho Realista"),
-    title: "Curso Completo de Desenho Realista",
+    id: slugify("Desenhando sem Dom"),
+    title: "Desenhando sem Dom",
     description:
      `# Desenhando sem Dom
 

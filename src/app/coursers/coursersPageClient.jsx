@@ -2,22 +2,22 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Navigation from '../components/Navigation';
-import ArticleCard from '../components/ArticleCard';
-import { getAllCategories } from '../data/articles';
+import CourseCard from '../components/courseCard';
+import { getAllCategories } from '../data/coursers';
 import { Filter, BookOpen } from 'lucide-react';
 import Footer from '../components/footer';
-import { initialArticles } from '../data/articles';
+import { initialCourses } from '../data/coursers';
 
  
-const ArticlesPageClient = () => {
+const CourserPageClient= () => {
 
   const [selectedCategory, setSelectedCategory] = useState('Todos');
   
   const categories = getAllCategories();
   
-  const filteredArticles = selectedCategory === 'Todos'
-    ? initialArticles
-    : initialArticles.filter(a => a.category === selectedCategory);
+  const filteredCourses = selectedCategory === 'Todos'
+    ? initialCourses
+    : initialCourses.filter(a => a.category === selectedCategory);
 
 
   return (
@@ -27,8 +27,8 @@ const ArticlesPageClient = () => {
 
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-purple-900 to-indigo-900 pt-32 pb-20 px-4 text-white relative overflow-hidden">
-          <div className="absolute inset-0  bg-cover bg-center opacity-50 mix-blend-overlay"  style={{
-    backgroundImage: "url('/imgs/heroSectionArticlesPage.png')"
+          <div className="absolute inset-0  bg-cover bg-center  mix-blend-overlay"  style={{
+    backgroundImage: "url('/imgs/courseHero.png')"
   }}></div>
             <div className="max-w-7xl mx-auto relative z-10 text-center">
             <motion.div
@@ -37,10 +37,11 @@ const ArticlesPageClient = () => {
               transition={{ duration: 0.6 }}
             >
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Artigos sobre <span className="text-purple-300">Arte e Desenho</span>
+              Cursos de <span className="text-purple-300">Arte e Desenho</span>
               </h1>
               <p className="text-xl text-gray-200 max-w-2xl mx-auto">
-               Conteúdo especializado para ajudar você a desenhar melhor, escolher os materiais ideais e desenvolver sua criatividade todos os dias.
+                 Descubra cursos cuidadosamente selecionados para aprender desenho,
+                 pintura, arte digital, perspectiva, anatomia e muito mais.
               </p>
             </motion.div>
           </div>
@@ -78,15 +79,15 @@ const ArticlesPageClient = () => {
 
             {/* Articles Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {filteredArticles.length > 0 ? (
-                filteredArticles.map((article, index) => (
+              {filteredCourses.length > 0 ? (
+                filteredCourses.map((courser, index) => (
                   <motion.div
-                    key={article.id}
+                    key={courser.id}
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                   >
-                    <ArticleCard article={article} />
+                    <CourseCard course={courser} />
                   </motion.div>
                 ))
               ) : (
@@ -104,4 +105,4 @@ const ArticlesPageClient = () => {
   );
 };
 
-export default ArticlesPageClient;
+export default CourserPageClient;

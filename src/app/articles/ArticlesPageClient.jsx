@@ -27,7 +27,7 @@ const ArticlesPageClient = () => {
 
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-purple-900 to-indigo-900 pt-32 pb-20 px-4 text-white relative overflow-hidden">
-          <div className="absolute inset-0  bg-cover bg-center opacity-50 mix-blend-overlay"  style={{
+          <div className="absolute inset-0  bg-cover bg-center opacity-60 mix-blend-overlay"  style={{
     backgroundImage: "url('/imgs/heroSectionArticlesPage.png')"
   }}></div>
             <div className="max-w-7xl mx-auto relative z-10 text-center">

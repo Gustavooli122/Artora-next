@@ -9,13 +9,13 @@ const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = usePathname();
 
-  const navItems = [
-    { name: 'Home', path: '/' },
-    { name: 'Sobre', path: '/sobre' },
-    { name: 'Produtos', path: '/products' },
-    { name: 'Artigos', path: '/articles' },
-    { name: 'Aprender', path: '/coursers' }
-  ];
+ const navItems = [
+  { name: "Home", path: "/" },
+  { name: "Produtos", path: "/products" },
+  { name: "Artigos", path: "/articles" },
+  { name: "Aprender", path: "/coursers" },
+  { name: "Sobre", path: "/sobre" },
+];
 
   const isActive = (path) => location === path;
 

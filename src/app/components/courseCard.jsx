@@ -11,7 +11,7 @@ const CourseCard = ({ course }) => {
       transition={{ duration: 0.3 }}
       className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group flex flex-col h-full"
     >
-      <Link href={`/cursos/${course.id}`} className="flex flex-col h-full">
+      <Link href={`/course/${course.id}`} className="flex flex-col h-full">
 
         {/* Imagem */}
         <div className="relative h-72 overflow-hidden">

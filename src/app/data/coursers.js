@@ -45,7 +45,7 @@ O curso aborda fundamentos importantes do desenho, incluindo observação, propo
     rating: 4.9,
     price:  "330,00",
     affiliate_link: "https://go.hotmart.com/Y106506585E",
-    relatedArticles: [],
+    relatedArticles: [slugify('Como Fazer Sombreamento em Desenhos Guia Completo para Iniciantes')],
   },
 
   {
@@ -55,7 +55,7 @@ O curso aborda fundamentos importantes do desenho, incluindo observação, propo
       "Domine perspectiva de um, dois e três pontos para criar desenhos mais profissionais.",
     image:
       "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800",
-    category: "Perspectiva",
+    category: "Desenho",
     level: "Iniciante",
     platform: "Udemy",
     instructor: "Carlos Mendes",

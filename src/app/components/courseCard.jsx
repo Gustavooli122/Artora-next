@@ -77,7 +77,7 @@ const CourseCard = ({ course }) => {
 
           {/* Preço */}
           <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-5">
-            R$ {course.price.toFixed(2)}
+            R$ {course.price}
           </div>
 
           {/* Botão */}

@@ -6,17 +6,17 @@ export const initialCourses = [
     description:
       "Aprenda desenho realista do zero até técnicas avançadas de luz, sombra, textura e proporção.",
     image:
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800",
+      "https://static-media.hotmart.com/zTtcYPbkEDXEBu35Xlovpla3SXY=/filters:background_color(white)/hotmart/product_pictures/4945ab83-bb52-4e4d-92a2-7e81b550fe3e/Image10.png",
     category: "Desenho",
     level: "Iniciante",
     platform: "Hotmart",
-    instructor: "João Silva",
-    duration: "18 horas",
-    students: 5420,
+    instructor: "Art Rodrigues",
+    duration: "281 horas",
+    students: "Mais de 15.600",
     certificate: true,
     rating: 4.9,
-    price: 97.00,
-    affiliate_link: "#",
+    price:  "330,00",
+    affiliate_link: "https://go.hotmart.com/Y106506585E",
     relatedArticles: [],
   },
 

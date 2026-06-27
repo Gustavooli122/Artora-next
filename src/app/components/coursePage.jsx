@@ -154,7 +154,7 @@ export const CoursePage = ({course}) => {
                 </div>
 
                 {/* Features Grid Responsivo */}
-                <div className="grid grid-cols-1  md:grid-cols-2 gap-4 mb-8">
+                <div className="grid grid-cols-1  sm:grid-cols-2 gap-4 mb-8">
                   {featuresFiltrada && featuresFiltrada.map((feature, index)=>(
                     <div
                       key={index}

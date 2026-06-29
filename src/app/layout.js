@@ -23,11 +23,7 @@ export default function RootLayout({ children }) {
       lang="pt"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full m-auto flex flex-col">
-
-     <Analytics/>
-        {children}
-        
+      
       
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-F35WZM1GEK"></script>
 <script>
@@ -37,6 +33,11 @@ export default function RootLayout({ children }) {
 
   gtag('config', 'G-F35WZM1GEK');
 </script>
+      <body className="min-h-full m-auto flex flex-col">
+
+     <Analytics/>
+        {children}
+        
 
         </body>
     </html>

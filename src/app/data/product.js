@@ -226,6 +226,31 @@ A **Wacom One CTL-472** é uma mesa digitalizadora desenvolvida para proporciona
     reviewsCount: "20.000",
     affiliate_link: 'https://amzn.to/4a6xUgu',
     relatedArticles: []
+  },
+  {
+    id: slugify('Kit 6 Esfuminho Esfumador Para Desenho Realista'),
+    name: 'Kit 6 Esfuminho Esfumador Para Desenho Realista',
+    description: `# Wacom One CTL-472
+
+A **Wacom One CTL-472** é uma mesa digitalizadora desenvolvida para proporcionar precisão, conforto e praticidade em desenhos, ilustrações, edições de imagem e anotações digitais.
+
+## Principais Características
+
+* Área ativa de **21,6 x 13,5 cm** para maior liberdade durante o uso.
+* Caneta sensível à pressão para traços naturais e precisos.
+* Ideal para desenho digital, design gráfico, edição de imagens e estudos.
+* Design compacto, leve e confortável para uso prolongado.
+* Compatível com diversos softwares criativos e educacionais.
+* Excelente opção para iniciantes e profissionais.
+`,
+    price: 285.32,
+    image: 'https://m.media-amazon.com/images/I/51Mo2+rLHGL._AC_SL1254_.jpg',
+    category: 'Arte digital',
+    rating: 4.8,
+    features:{frete:false,garantia:false, qualidade:false},
+    reviewsCount: "20.000",
+    affiliate_link: 'https://amzn.to/4a6xUgu',
+    relatedArticles: []
   }
 ];
 

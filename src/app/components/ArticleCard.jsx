@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Calendar } from 'lucide-react';
 import Link from 'next/link';
 
+
 const ArticleCard = ({ article }) => {
   return (
     <motion.div
@@ -14,13 +15,9 @@ const ArticleCard = ({ article }) => {
         <img
           src={article.coverImage}
           alt={article.title}
-          className="w-full h-full object-cover hidden md:flex group-hover:scale-110 transition-transform duration-500"
+          className="w-full h-full object-cover  group-hover:scale-110 transition-transform duration-500"
         />
-         <img
-          src={article.coverImageMobile}
-          alt={article.title}
-          className="w-full h-full md:hidden flex object-cover group-hover:scale-110 transition-transform duration-500"
-        />
+        
         <div className="absolute top-4 right-4">
           <span className={`
             px-3 py-1 text-xs font-bold rounded-full shadow-md text-white
@@ -46,10 +43,10 @@ const ArticleCard = ({ article }) => {
         </h3>
         
         <p className="text-gray-600 text-sm mb-6 line-clamp-3 flex-grow">
-          {article.description}
+         {article.summary}
         </p>
 
-        
+
           <p  className="inline-flex items-center gap-2 text-purple-600 font-semibold group-hover:gap-3 transition-all"> Ler Artigo <ArrowRight className="w-4 h-4" /></p>
         </Link>
       </div>

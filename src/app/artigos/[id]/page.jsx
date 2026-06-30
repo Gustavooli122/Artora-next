@@ -50,12 +50,9 @@ export default async function ArticleDetailPage({ params }) {
       <div className="relative h-[50vh] min-h-[400px]">
         <img
           src={artigoAtual.coverImage}
-          className="w-full h-full hidden md:flex object-cover"
+          className="w-full h-full  object-cover"
         />
-        <img
-          src={artigoAtual.coverImageMobile}
-          className="w-full h-full flex md:hidden object-cover"
-        />
+        
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30" />
 

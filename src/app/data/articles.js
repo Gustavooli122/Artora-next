@@ -398,7 +398,7 @@ Lembre-se: a evolução acontece aos poucos. Guarde seus desenhos antigos e comp
     id: slugify('Os 3 Melhores Cursos de Desenho Realista em 2026'),
     title: 'Os 3 Melhores Cursos de Desenho Realista em 2026',
     linksArticle:[],
-    content: `# Os 7 Melhores Cursos de Desenho Realista  em 2026
+    content: `# Os 3 Melhores Cursos de Desenho Realista  em 2026
 
 Se você deseja aprender a desenhar retratos realistas, animais, objetos ou qualquer outro tipo de desenho com aparência profissional, investir em um bom curso pode acelerar bastante a sua evolução.
 

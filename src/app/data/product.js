@@ -236,16 +236,15 @@ A **Wacom One CTL-472** é uma mesa digitalizadora desenvolvida para proporciona
 
 ## Principais Características
 
-* Área ativa de **21,6 x 13,5 cm** para maior liberdade durante o uso.
-* Caneta sensível à pressão para traços naturais e precisos.
-* Ideal para desenho digital, design gráfico, edição de imagens e estudos.
-* Design compacto, leve e confortável para uso prolongado.
-* Compatível com diversos softwares criativos e educacionais.
-* Excelente opção para iniciantes e profissionais.
+* SOMBRAS MAIS SUAVES SEM DEPENDER DO DEDO com kit de 6 esfuminhos para espalhar grafite, carvão e pastel seco com mais controle em desenhos realistas, esboços e ilustrações.
+🎨 MAIS PRECISÃO EM LUZ E SOMBRA com pontas duplas de diferentes espessuras que ajudam a trabalhar áreas pequenas, médias e maiores sem perder o acabamento do desenho.
+✏️ KIT COM 6 TAMANHOS PARA DIFERENTES TÉCNICAS incluindo medidas de 11 cm, 12 cm, 12,5 cm, 14 cm, 14,5 cm e 15 cm, todos com 1 cm de largura conforme referência do produto.
+🖌️ MATERIAL DE PAPEL COMPRIMIDO DE ALTA DENSIDADE ideal para artistas, estudantes e iniciantes que desejam esfumar, suavizar traços e criar transições visuais com mais praticidade.
+🚫 EVITE BORRÕES EXCESSIVOS E MARCAS INDESEJADAS usando o esfuminho como apoio técnico para misturar sombras com mais limpeza do que o uso direto dos dedos no papel.
 `,
     price: 285.32,
     image: 'https://m.media-amazon.com/images/I/51Mo2+rLHGL._AC_SL1254_.jpg',
-    category: 'Arte digital',
+    category: 'Esfuminhos',
     rating: 4.8,
     features:{frete:false,garantia:false, qualidade:false},
     reviewsCount: "20.000",

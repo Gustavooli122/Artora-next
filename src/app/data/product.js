@@ -247,7 +247,7 @@ A **Wacom One CTL-472** é uma mesa digitalizadora desenvolvida para proporciona
     category: 'Esfuminhos',
     rating: 4.8,
     features:{frete:false,garantia:false, qualidade:false},
-    reviewsCount: "20.000",
+    reviewsCount: "451",
     affiliate_link: 'https://amzn.to/4a6xUgu',
     relatedArticles: []
   }

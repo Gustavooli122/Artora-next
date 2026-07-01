@@ -1,5 +1,6 @@
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import Link from "next/link";
 export default function Markdown({ contents }) {
   return (
     <div className="prose prose-gray max-w-none">
@@ -51,14 +52,12 @@ export default function Markdown({ contents }) {
           ),
 
           a: ({ children, href }) => (
-            <a
+            <Link
               href={href}
-              target="_blank"
-              rel="noopener noreferrer"
               className="text-blue-600 underline hover:text-blue-800 transition"
             >
               {children}
-            </a>
+            </Link>
           ),
 
           ul: ({ children }) => (

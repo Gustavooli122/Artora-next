@@ -714,7 +714,7 @@ Os materiais básicos normalmente são:
 
 Se você ainda não possui esses materiais, confira alguns produtos recomendados pela Artora.
 
- **Ver materiais para desenho** (COLE_O_LINK_AQUI)
+ Ver materiais para desenho](/products)
 
 ---
 

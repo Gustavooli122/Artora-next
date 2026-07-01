@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ExternalLink, Star, Users } from "lucide-react";
+import Markdown from "./Markedown";
 
 const CourseCard = ({ course }) => {
   return (
@@ -57,7 +58,7 @@ const CourseCard = ({ course }) => {
           </h3>
 
           <p className="text-gray-600 text-sm mb-5 line-clamp-3 flex-grow">
-            {course.description}
+             <Markdown contents={course.description}/>
           </p>
 
           {/* Rating + Alunos */}

@@ -1,12 +1,12 @@
-import Navigation from "@/app/components/Navigation";
-import Footer from "@/app/components/footer";
-import ArticleCard from "@/app/components/ArticleCard";
-import Markdown from "@/app/components/Markedown";
-import MotionArticleMeta from "@/app/components/motionArticle";
-import { getArticleById } from "@/app/data/articles";
+import Navigation from "../../components/Navigation";
+import Footer from "../../components/footer";
+import ArticleCard from "../../components/ArticleCard";
+import Markdown from "../../components/Markedown";
+import MotionArticleMeta from "../../components/motionArticle";
+import { getArticleById } from "../../data/articles";
 import { Tag } from "lucide-react";
 // 👇 substitui o useArticles
-import { initialArticles } from "@/app/data/articles";
+import { initialArticles } from "../../data/articles";
 
 // 🔥 SSG: gera páginas estáticas
 export function generateStaticParams() {
@@ -14,7 +14,60 @@ export function generateStaticParams() {
     id: article.id,
   }));
 }
+export async function generateMetadata({ params }) {
+  const { id } = await params;
 
+  const article = getArticleById(id);
+
+  if (!article) {
+    return {
+      title: "Artigo não encontrado | Artora",
+    };
+  }
+
+  const url = `https://artora-study.vercel.app/artigos/${article.id}`;
+
+  return {
+    title: article.title,
+    description: article.summary,
+
+    keywords: article.tags,
+
+    authors: [
+      {
+        name: article.author,
+      },
+    ],
+
+    alternates: {
+      canonical: url,
+    },
+
+    openGraph: {
+      title: article.title,
+      description: article.summary,
+      url,
+      siteName: "Artora",
+      locale: "pt_BR",
+      type: "article",
+
+      images: [
+        {
+          url: article.coverImage,
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title: article.title,
+      description: article.summary,
+      images: [article.coverImage],
+    },
+  };
+}
 export default async function ArticleDetailPage({ params }) {
   const { id } = await params;
 

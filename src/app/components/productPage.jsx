@@ -2,16 +2,16 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
-import Navigation from '@/app/components/Navigation';
-import Markdown from '@/app/components/Markedown';
-import ProductCard from '@/app/components/ProductCard';
-import ArticleCard from '@/app/components/ArticleCard';
-import { getRelatedArticles } from '@/app/data/articles';
-import Footer from '@/app/components/footer';
+import Navigation from './Navigation';
+import Markdown from './Markedown';
+import ProductCard from './ProductCard';
+import ArticleCard from './ArticleCard';
+import { getRelatedArticles } from '../data/articles';
+import Footer from './footer';
 import { ArrowLeft, ExternalLink, ShoppingCart, Shield, Truck as TruckIcon, Award, ArrowRight } from 'lucide-react';
-import { useToast } from '@/app/components/ui/use-toast';
+import { useToast } from './ui/use-toast';
 
-import { initialProducts } from '@/app/data/product';
+import { initialProducts } from '../data/product';
 
 
 

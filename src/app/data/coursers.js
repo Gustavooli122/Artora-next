@@ -128,3 +128,4 @@ export const getCoursesByCategory = (category) => {
     (course) => course.category === category
   );
 };
+

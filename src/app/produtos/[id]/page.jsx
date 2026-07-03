@@ -1,6 +1,6 @@
-import { getProductById, initialProducts } from "@/app/data/product";
-import { ProductPage } from "@/app/components/productPage";
 
+import { getProductById, initialProducts } from "../../data/product";
+import { ProductPage } from "../../components/productPage";
 export async function generateMetadata({ params }) {
   const { id } = await params;
 

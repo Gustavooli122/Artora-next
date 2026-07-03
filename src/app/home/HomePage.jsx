@@ -87,7 +87,7 @@ const HomePage = () => {
                   <PencilRuler className="w-5 h-5" />
                 </Link>
                 <Link
-                  href="/artigos"
+                  href="/articles"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-white/10 backdrop-blur-md border border-white/30 text-white text-lg font-bold rounded-xl hover:bg-white/20 transition-all duration-300"
                 >
                   <span>Explorar artigos</span>

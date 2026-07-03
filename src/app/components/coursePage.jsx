@@ -1,11 +1,11 @@
 "use client"
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import Navigation from '@/app/components/Navigation';
-import Markdown from '@/app/components/Markedown';
-import ArticleCard from '@/app/components/ArticleCard';
-import { getRelatedArticles } from '@/app/data/articles';
-import Footer from '@/app/components/footer';
+import Navigation from './Navigation';
+import Markdown from './Markedown';
+import ArticleCard from './ArticleCard';
+import { getRelatedArticles } from '../data/articles';
+import Footer from './footer';
 import { 
   ArrowLeft, 
   ExternalLink, 
@@ -17,9 +17,9 @@ import {
   ArrowRight
 } from 'lucide-react';
 import { ShoppingCart } from 'lucide-react';
-import { useToast } from '@/app/components/ui/use-toast';
+import { useToast } from './ui/use-toast';
 import CourseCard from './courseCard';
-import { initialCourses } from "@/app/data/coursers";
+import { initialCourses } from '../data/coursers';
 
 export const CoursePage = ({course}) => {
   const { toast } = useToast();

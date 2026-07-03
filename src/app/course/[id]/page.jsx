@@ -1,5 +1,5 @@
-import { getCourseById, initialCourses } from "@/app/data/coursers";
-import { CoursePage } from "@/app/components/coursePage";
+import { initialCourses, getCourseById } from "../../data/coursers";
+import { CoursePage } from "../../components/coursePage";
 
 export async function generateMetadata({ params }) {
   const { id } = await params;

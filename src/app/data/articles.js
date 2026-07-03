@@ -343,31 +343,31 @@ Ter os materiais certos pode tornar o aprendizado do sombreamento muito mais agr
 
 Um bom caderno permite praticar diariamente e acompanhar sua evolução artística.
 
-➡️ **Confira os sketchbooks disponíveis:** [Ver produtos](COLE_O_LINK_AQUI)
+➡️ **Confira os sketchbooks disponíveis:** [Ver produtos](https://link.amazon/B0dKnKdJT)
 
 ### Lápis Grafite
 
 Lápis HB, 2B, 4B e 6B são excelentes para criar diferentes níveis de sombra e contraste.
 
-➡️ **Ver lápis para desenho:** [Ver produtos](COLE_O_LINK_AQUI)
+➡️ **Ver lápis para desenho:** [Ver produtos](https://link.amazon/B06jI4zlb)
 
 ### Kits de Desenho
 
 Os kits costumam incluir lápis de diferentes graduações, borracha, apontador e outros acessórios úteis para iniciantes.
 
-➡️ **Ver kits de desenho:** [Ver produtos](COLE_O_LINK_AQUI)
+➡️ **Ver kits de desenho:** [Ver produtos](https://link.amazon/B0gWb50v1)
 
 ### Esfuminhos
 
 Os esfuminhos ajudam a criar transições suaves entre áreas claras e escuras, produzindo um acabamento mais profissional.
 
-➡️ **Ver esfuminhos:** [Ver produtos](COLE_O_LINK_AQUI)
+➡️ **Ver esfuminhos:** [Ver produtos](https://link.amazon/B05Lwpo93)
 
 ### Borrachas Artísticas
 
 Uma boa borracha não serve apenas para apagar erros, mas também para criar pontos de luz e detalhes no desenho.
 
-➡️ **Ver borrachas para desenho:** [Ver produtos](COLE_O_LINK_AQUI)
+➡️ **Ver borrachas para desenho:** [Ver produtos](https://link.amazon/B02ToRbDP)
 
 ## Continue Praticando
 

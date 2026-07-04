@@ -30,10 +30,9 @@ const ProductCard = ({ product }) => {
         <h3 className="text-xl font-bold text-gray-900 mb-2 line-clamp-2 group-hover:text-purple-600 transition-colors">
           {product.name}
         </h3>
-        <p className="text-gray-600 text-sm mb-4 line-clamp-2">
-         <Markdown contents={product.description}/>
-        </p>
-        
+      <div className="text-gray-600 text-sm mb-4 line-clamp-2 overflow-hidden prose prose-sm">
+  <Markdown contents={product.description}/>
+</div>
         <div className="flex items-center justify-between mb-4">
           <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
             R$ {product.price.toFixed(2)}

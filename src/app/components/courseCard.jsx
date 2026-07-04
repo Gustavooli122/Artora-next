@@ -57,9 +57,9 @@ const CourseCard = ({ course }) => {
             {course.title}
           </h3>
 
-          <p className="text-gray-600 text-sm mb-5 line-clamp-3 flex-grow">
-             <Markdown contents={course.description}/>
-          </p>
+         <div className="text-gray-600 text-sm mb-5 line-clamp-3 flex-grow">
+  <Markdown contents={course.description} />
+</div>
 
           {/* Rating + Alunos */}
           <div className="flex items-center justify-between text-sm text-gray-600 mb-5">

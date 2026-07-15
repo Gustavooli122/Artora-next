@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { initialArticles } from "./data/articles";
 
-const BASE_URL = "https://artora-study.vercel.app";
+const BASE_URL = "https://artora.company";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const articlePages = initialArticles.map((article) => ({

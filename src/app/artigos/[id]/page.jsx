@@ -137,6 +137,7 @@ export default async function ArticleDetailPage({ params }) {
       </div>
 
       {/* RELACIONADOS */}
+      <h1 className="font-semibold text-xl m-5 text-gray-800">Aprenda também:</h1>
       {artigosRelacionados.length > 0 && (
         <div className="bg-gray-50 py-16 px-4">
           <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">

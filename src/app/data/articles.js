@@ -343,31 +343,31 @@ Ter os materiais certos pode tornar o aprendizado do sombreamento muito mais agr
 
 Um bom caderno permite praticar diariamente e acompanhar sua evolução artística.
 
-➡️ **Confira os sketchbooks disponíveis:** [Ver produtos](https://link.amazon/B0dKnKdJT)
+ **Confira os sketchbooks disponíveis:** [Ver produtos](https://link.amazon/B0dKnKdJT)
 
 ### Lápis Grafite
 
 Lápis HB, 2B, 4B e 6B são excelentes para criar diferentes níveis de sombra e contraste.
 
-➡️ **Ver lápis para desenho:** [Ver produtos](https://link.amazon/B06jI4zlb)
+ **Ver lápis para desenho:** [Ver produtos](https://link.amazon/B06jI4zlb)
 
 ### Kits de Desenho
 
 Os kits costumam incluir lápis de diferentes graduações, borracha, apontador e outros acessórios úteis para iniciantes.
 
-➡️ **Ver kits de desenho:** [Ver produtos](https://link.amazon/B0gWb50v1)
+ **Ver kits de desenho:** [Ver produtos](https://link.amazon/B0gWb50v1)
 
 ### Esfuminhos
 
 Os esfuminhos ajudam a criar transições suaves entre áreas claras e escuras, produzindo um acabamento mais profissional.
 
-➡️ **Ver esfuminhos:** [Ver produtos](https://link.amazon/B05Lwpo93)
+ **Ver esfuminhos:** [Ver produtos](https://link.amazon/B05Lwpo93)
 
 ### Borrachas Artísticas
 
 Uma boa borracha não serve apenas para apagar erros, mas também para criar pontos de luz e detalhes no desenho.
 
-➡️ **Ver borrachas para desenho:** [Ver produtos](https://link.amazon/B02ToRbDP)
+ **Ver borrachas para desenho:** [Ver produtos](https://link.amazon/B02ToRbDP)
 
 ## Continue Praticando
 
@@ -381,7 +381,7 @@ Lembre-se: a evolução acontece aos poucos. Guarde seus desenhos antigos e comp
     coverImage: '/imgs/esferaComSombra.png',
     category: 'Aprendizagem',
     summary: 'Aprenda os fundamentos do sombreamento e descubra técnicas essenciais para criar profundidade, contraste e realismo em seus desenhos.',
-    publicationDate:Date.now(),
+    publicationDate:"15-07-2026",
     author:'Gustavo Oliveira',
     readTime:"5 min",
     tags: [
@@ -393,6 +393,259 @@ Lembre-se: a evolução acontece aos poucos. Guarde seus desenhos antigos e comp
   'desenho para iniciantes'
 ],
   },
+  {
+  id: slugify('Como Fazer Desenhos 3D Guia Completo para Iniciantes'),
+  title: 'Como Fazer Desenhos 3D: Guia Completo para Iniciantes',
+  linksArticle: [],
+
+  content: `## Como Fazer Desenhos 3D: Guia Completo para Iniciantes
+
+Os desenhos 3D impressionam pela sensação de profundidade e realismo. Embora pareçam difíceis, a verdade é que qualquer pessoa pode aprender os fundamentos utilizando técnicas simples de perspectiva, luz e sombra.
+
+Neste guia você aprenderá os princípios básicos para começar a criar desenhos tridimensionais no papel.
+
+## O Que é um Desenho 3D?
+
+Um desenho 3D é uma ilustração que cria a ilusão de profundidade em uma superfície plana.
+
+Nosso cérebro interpreta linhas, sombras e perspectiva como se o objeto realmente tivesse largura, altura e profundidade.
+
+É justamente essa ilusão visual que faz um desenho parecer "sair do papel".
+
+## Materiais Necessários
+
+Você não precisa de materiais caros para começar.
+
+Os itens mais utilizados são:
+
+* Lápis HB para esboços.
+* Lápis 2B e 4B para sombras.
+* Borracha.
+* Régua.
+* Papel para desenho ou sketchbook.
+
+Conforme você evoluir, poderá utilizar lápis mais macios, como 6B e 8B, para criar contrastes ainda maiores.
+## Entenda a Perspectiva
+
+![Perspectiva no desenho](/imgs/desenho3d.png)
+
+A perspectiva é um dos pilares do desenho 3D. Ela é a técnica responsável por criar a sensação de profundidade em uma superfície plana, fazendo com que objetos pareçam ocupar um espaço tridimensional.
+
+Na vida real, objetos que estão mais distantes parecem menores do que aqueles que estão próximos de nós. A perspectiva reproduz exatamente esse efeito no papel.
+
+Além do tamanho dos objetos, ela também define como linhas, ângulos e distâncias se comportam conforme se aproximam do horizonte.
+
+Um dos conceitos mais importantes da perspectiva é o **ponto de fuga**, que representa o local para onde as linhas paralelas parecem convergir quando observamos uma cena à distância.
+
+Quanto melhor você compreender esse conceito, mais realistas serão seus desenhos.
+
+Os três tipos mais utilizados são:
+
+### Perspectiva de Um Ponto
+
+![Perspectiva de um ponto](/imgs/perspectiva1ponto.png)
+
+A perspectiva de um ponto é considerada a mais simples e indicada para quem está começando.
+
+Nesse tipo de perspectiva, todas as linhas de profundidade convergem para um único ponto de fuga localizado na linha do horizonte.
+
+Ela é muito utilizada para desenhar:
+
+* Corredores.
+* Trilhos de trem.
+* Estradas.
+* Túneis.
+* Salas.
+* Ruas vistas de frente.
+
+Esse tipo de perspectiva ajuda a entender como a profundidade funciona e serve como base para técnicas mais avançadas.
+
+### Perspectiva de Dois Pontos
+
+![Perspectiva de dois pontos](/imgs/perspectiva2pontos.png)
+
+Na perspectiva de dois pontos existem dois pontos de fuga posicionados na linha do horizonte.
+
+Ela é utilizada quando observamos um objeto de um dos seus cantos, permitindo visualizar duas faces ao mesmo tempo.
+
+Esse método é muito utilizado para desenhar:
+
+* Casas.
+* Prédios.
+* Cubos.
+* Móveis.
+* Caixas.
+* Objetos arquitetônicos.
+
+É uma das perspectivas mais utilizadas por arquitetos, designers e ilustradores.
+
+### Perspectiva de Três Pontos
+
+![Perspectiva de três pontos](/imgs/perspectiva3pontos.png)
+
+A perspectiva de três pontos acrescenta um terceiro ponto de fuga acima ou abaixo da linha do horizonte.
+
+Ela cria uma sensação muito maior de altura ou profundidade, tornando a cena mais dramática e realista.
+
+É bastante utilizada para desenhar:
+
+* Arranha-céus.
+* Prédios vistos de baixo para cima.
+* Torres.
+* Cenas urbanas.
+* Ilustrações cinematográficas.
+
+Embora seja mais complexa, dominar essa técnica permite criar desenhos extremamente impressionantes.
+
+## Comece Desenhando Formas Simples
+
+Antes de criar desenhos complexos, pratique figuras geométricas básicas.
+
+Desenhe:
+
+* Cubos.
+* Cilindros.
+* Esferas.
+* Prismas.
+* Pirâmides.
+* Cones.
+
+Essas formas são a base de praticamente todos os objetos que desenhamos.
+
+Por exemplo:
+
+* Um carro pode ser construído a partir de cubos e cilindros.
+* Uma garrafa pode ser simplificada em cilindros.
+* Um rosto pode começar com uma esfera.
+* Uma casa normalmente é construída utilizando cubos e prismas.
+
+Ao praticar essas formas em diferentes perspectivas, você desenvolverá uma compreensão muito maior sobre profundidade, proporção e volume.
+
+Depois de dominar essas estruturas, será muito mais fácil desenhar objetos, cenários e construções com aparência tridimensional.
+
+
+## A Importância da Luz e da Sombra
+
+Mesmo com uma boa perspectiva, um desenho pode parecer plano caso não possua sombras.
+
+Defina uma direção para a luz antes de começar.
+
+Depois identifique:
+
+* Área iluminada.
+* Meio-tom.
+* Sombra principal.
+* Sombra projetada.
+
+Esses elementos criam a sensação de volume.
+
+## Crie Contraste
+
+Quanto maior o contraste entre áreas claras e escuras, maior será a sensação de profundidade.
+
+Evite deixar todo o desenho com o mesmo tom.
+
+Utilize lápis mais macios nas regiões mais escuras para destacar ainda mais o efeito tridimensional.
+
+## O Efeito da Sombra Projetada
+
+A sombra projetada é a sombra que o objeto cria sobre a superfície.
+
+Ela é extremamente importante para convencer o cérebro de que aquele objeto realmente está apoiado sobre o papel.
+
+Sem ela, muitos desenhos parecem "flutuar".
+
+## Truques para Criar Ilusão de Óptica
+
+Alguns desenhos 3D utilizam ilusões de ótica para parecer que saltam da folha.
+
+Você pode conseguir esse efeito utilizando:
+
+* Perspectiva correta.
+* Sombras fortes.
+* Linhas limpas.
+* Alto contraste.
+* Fundo simples.
+
+Esses detalhes aumentam bastante o impacto visual.
+
+## Erros Mais Comuns
+
+### Ignorar a perspectiva
+
+Mesmo pequenas diferenças no alinhamento das linhas podem fazer o desenho parecer estranho.
+
+### Não definir uma fonte de luz
+
+Quando cada sombra aponta para um lado diferente, o cérebro percebe rapidamente que algo está errado.
+
+### Pouco contraste
+
+Sombras muito claras reduzem o efeito tridimensional.
+
+### Pressionar demais o lápis
+
+Construir as sombras em várias camadas produz um acabamento muito melhor.
+
+## Exercício para Iniciantes
+
+Um excelente treino consiste em desenhar um cubo.
+
+1. Faça um quadrado.
+2. Desenhe outro quadrado levemente deslocado.
+3. Una os vértices.
+4. Defina uma fonte de luz.
+5. Adicione as sombras.
+6. Crie a sombra projetada.
+
+Repita esse exercício várias vezes mudando a posição da luz.
+
+## Como Evoluir Mais Rápido
+
+Algumas práticas aceleram bastante o aprendizado:
+
+* Desenhe todos os dias.
+* Observe objetos reais.
+* Estude perspectiva.
+* Pratique luz e sombra.
+* Copie desenhos apenas como exercício.
+* Crie desenhos próprios regularmente.
+
+A consistência é muito mais importante do que passar várias horas desenhando apenas uma vez por semana.
+
+## Conclusão
+
+Aprender a fazer desenhos 3D é um processo baseado em prática e observação. Dominar perspectiva, luz e sombra permitirá criar desenhos cada vez mais realistas.
+
+Comece pelas formas básicas, pratique diariamente e aumente gradualmente a dificuldade dos seus projetos. Com o tempo, você perceberá uma evolução significativa na qualidade dos seus desenhos.
+
+
+## Continue Praticando
+
+Todo artista começou desenhando formas simples. O segredo para dominar o desenho 3D é praticar continuamente, estudar perspectiva e observar como a luz se comporta nos objetos ao seu redor.
+
+Guarde seus desenhos antigos. Compará-los após alguns meses é uma das melhores formas de perceber sua evolução e manter a motivação.
+
+`,
+
+  coverImage: "/imgs/desenhar3d.png",
+  category: 'Aprendizagem',
+  summary:
+    'Aprenda como fazer desenhos 3D utilizando perspectiva, luz e sombra. Um guia completo para iniciantes que desejam criar desenhos com profundidade e realismo.',
+  publicationDate: "16-07-2026",
+  author: 'Gustavo Oliveira',
+  readTime: '7 min',
+  tags: [
+    'desenho',
+    'desenho 3d',
+    'perspectiva',
+    'desenho em perspectiva',
+    'arte',
+    'desenhos realistas',
+    'sketchbook',
+    'desenho para iniciantes'
+  ],
+},
 
    {
     id: slugify('Os 3 Melhores Cursos de Desenho Realista em 2026'),
@@ -803,7 +1056,7 @@ Bons estudos e bons desenhos! `
     coverImage: '/imgs/imageArticleDicasDeCursos.png',
     category: 'Dicas',
     summary: 'Descubra os melhores cursos de desenho realista da Hotmart em 2026. Compare conteúdo, metodologia, nível de dificuldade, prós e contras para escolher o curso ideal e acelerar sua evolução como artista.',
-    publicationDate:Date.now(),
+    publicationDate:"02-07-2026",
     author:'Gustavo Oliveira',
     readTime:"6 min",
     tags: [

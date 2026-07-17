@@ -632,7 +632,7 @@ Guarde seus desenhos antigos. Compará-los após alguns meses é uma das melhore
   category: 'Aprendizagem',
   summary:
     'Aprenda como fazer desenhos 3D utilizando perspectiva, luz e sombra. Um guia completo para iniciantes que desejam criar desenhos com profundidade e realismo.',
-  publicationDate: "16-07-2026",
+   publicationDate: "16-07-2026",
   author: 'Gustavo Oliveira',
   readTime: '7 min',
   tags: [

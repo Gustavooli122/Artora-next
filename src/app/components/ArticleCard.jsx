@@ -35,7 +35,7 @@ const ArticleCard = ({ article }) => {
       <div className="p-6 flex flex-col flex-grow">
         <div className="flex items-center gap-2 text-gray-500 text-sm mb-3">
           <Calendar className="w-4 h-4" />
-          <span>{new Date(article.publicationDate).toLocaleDateString('pt-BR')}</span>
+          <span>{article.publicationDate}</span>
         </div>
 <Link href={`/artigos/${article.id}`}>
         <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-purple-600 transition-colors">

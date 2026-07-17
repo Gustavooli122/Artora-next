@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Artigos
   const articlePages = initialArticles.map((article) => ({
     url: `${BASE_URL}/artigos/${article.id}`,
-    lastModified: new Date(article.publicationDate),
+    lastModified: article.publicationDate,
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));

@@ -24,9 +24,9 @@ export default function MotionArticleMeta({artigoAtual}){
 
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" />
-                  {new Date(
-                    artigoAtual.publicationDate
-                  ).toLocaleDateString("pt-BR")}
+                 {artigoAtual.publicationDate}
+                    
+             
                 </div>
 
                 <div className="flex items-center gap-2">

@@ -159,7 +159,7 @@ const featuresFiltrada = pegarFeature()
                 </button>
 
                 <p className="text-sm text-gray-500 text-center">
-                  Você será redirecionado para o site oficial da Amazon
+                 Este produto é vendido por nossos parceiros. Ao comprar através dos links da Artora, podemos receber uma comissão sem custo adicional para você.
                 </p>
               </motion.div>
             </div>

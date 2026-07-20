@@ -17,7 +17,7 @@ const values = [
   {
     icon: <PencilRuler className="w-8 h-8" />,
     title: 'Materiais de Qualidade',
-    description: 'Selecionamos produtos que oferecem boa experiência para artistas, estudantes e criativos.'
+    description: 'Pesquisamos, analisamos e recomendamos produtos que oferecem boa experiência para artistas, estudantes e criativos.'
   },
   {
     icon: <Palette className="w-8 h-8" />,
@@ -27,7 +27,7 @@ const values = [
   {
     icon: <BookOpen className="w-8 h-8" />,
     title: 'Aprendizado',
-    description: 'Compartilhamos tutoriais, dicas e conteúdos para ajudar você a evoluir no desenho e na pintura.'
+    description: 'Produzimos conteúdos educativos e recomendações independentes para ajudar artistas, dicas e conteúdos para ajudar você a evoluir no desenho e na pintura.'
   },
   {
     icon: <Lightbulb className="w-8 h-8" />,

@@ -36,11 +36,7 @@ export default function Footer(){
       </h4>
 
       <p className="text-gray-400">
-        O Artora participa de programas de afiliados.
-        Alguns links presentes neste site podem gerar
-        uma comissão quando uma compra é realizada através
-        deles. Isso não gera custos adicionais para você
-        e ajuda a manter nosso conteúdo gratuito.
+       A Artora participa de programas de afiliados e recomenda produtos de lojas e marcas parceiras. Não fabricamos, comercializamos ou enviamos produtos próprios. Alguns links presentes neste site podem gerar uma comissão quando uma compra é realizada através deles. Isso não gera custos adicionais para você e ajuda a manter nosso conteúdo gratuito.
       </p>
     </div>
 

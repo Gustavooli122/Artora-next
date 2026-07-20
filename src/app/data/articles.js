@@ -724,7 +724,7 @@ Os materiais básicos costumam ser:
 
 Inclusive, você pode conferir alguns materiais recomendados aqui na Artora.
 
- [Ver materiais para desenho](COLE_O_LINK_AQUI)
+ [Ver materiais para desenho](artora.company/products)
 
 ---
 
@@ -965,7 +965,7 @@ Os materiais básicos normalmente são:
 
 Se você ainda não possui esses materiais, confira alguns produtos recomendados pela Artora.
 
- Ver materiais para desenho](/products)
+ [Ver materiais para desenho](/products)
 
 ---
 
@@ -1007,7 +1007,7 @@ Quanto melhor você compreender luz, sombra, contraste e volume, mais naturais s
 
 Se você ainda não estudou esse assunto, confira nosso guia completo:
 
- **Como Fazer Sombreamento em Desenhos** (COLE_O_LINK_DO_ARTIGO)
+   [Como Fazer Sombreamento em Desenhos](/artigos/como-fazer-sombreamento-em-desenhos-guia-completo-para-iniciantes)
 
 ---
 

@@ -184,7 +184,7 @@ Componentes incluídos	1 Luva para desenho
     id: slugify('Confetti Caderno com divisórias, 8023 HPP, Capa Preto'),
     name: 'Confetti - Caderno com divisórias, 8023 HPP, Capa Preto',
     description: `
-## Caderno Confetti 8023 HPP com Divisórias
+### Caderno Confetti 8023 HPP com Divisórias
 
 * Caderno com divisórias internas para organizar matérias, projetos e anotações.
 * Capa em polipropileno (PP), resistente a rasgos e à umidade.
@@ -205,11 +205,11 @@ Componentes incluídos	1 Luva para desenho
   {
     id: slugify('Mesa Digitalizadora One By Wacom CTL472'),
     name: 'Mesa Digitalizadora One By Wacom CTL472',
-    description: `# Wacom One CTL-472
+    description: `### Wacom One CTL-472
 
 A **Wacom One CTL-472** é uma mesa digitalizadora desenvolvida para proporcionar precisão, conforto e praticidade em desenhos, ilustrações, edições de imagem e anotações digitais.
 
-## Principais Características
+### Principais Características
 
 * Área ativa de **21,6 x 13,5 cm** para maior liberdade durante o uso.
 * Caneta sensível à pressão para traços naturais e precisos.
@@ -232,9 +232,9 @@ A **Wacom One CTL-472** é uma mesa digitalizadora desenvolvida para proporciona
     name: 'Kit 6 Esfuminho Esfumador Para Desenho Realista',
     description: `
 
-# Sombra e Luz Profissional Alta Densidade Ponta Dupla Para Grafite Carvão Pastel Seco Esboço Ilustração
+### Sombra e Luz Profissional Alta Densidade Ponta Dupla Para Grafite Carvão Pastel Seco Esboço Ilustração
 
-## Principais Características
+###" Principais Características
 
 * SOMBRAS MAIS SUAVES SEM DEPENDER DO DEDO com kit de 6 esfuminhos para espalhar grafite, carvão e pastel seco com mais controle em desenhos realistas, esboços e ilustrações.
 * MAIS PRECISÃO EM LUZ E SOMBRA com pontas duplas de diferentes espessuras que ajudam a trabalhar áreas pequenas, médias e maiores sem perder o acabamento do desenho.

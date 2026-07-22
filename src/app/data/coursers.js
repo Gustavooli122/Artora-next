@@ -52,9 +52,7 @@ O curso aborda fundamentos importantes do desenho, incluindo observação, propo
     title: "Curso de Desenho Realista Completo – Para Todas as Idades",
     description:
 `
-# Curso de Desenho Realista Completo – Para Todas as Idades
-
-O **Curso de Desenho Realista Completo** foi desenvolvido para quem deseja aprender desenho realista do zero ou aprimorar suas habilidades por meio de uma metodologia prática e progressiva. Com aulas online, exercícios e acompanhamento do professor, o curso atende tanto adultos quanto crianças.
+ O **Curso de Desenho Realista Completo** foi desenvolvido para quem deseja aprender desenho realista do zero ou aprimorar suas habilidades por meio de uma metodologia prática e progressiva. Com aulas online, exercícios e acompanhamento do professor, o curso atende tanto adultos quanto crianças.
 
 Durante o treinamento, o aluno desenvolve percepção visual, técnicas de luz e sombra, anatomia e construção da figura humana, criando uma base sólida para produzir desenhos cada vez mais realistas.
 

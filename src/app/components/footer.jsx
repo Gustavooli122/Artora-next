@@ -27,7 +27,7 @@ export default function Footer(){
       <Link href="/products">Produtos</Link>
       <Link href="/articles">Artigos</Link>
       <Link href="/sobre">Sobre</Link>
-      <Link href="/coursers">Aprender</Link>
+      <Link href="/courses">Aprender</Link>
     </div>
 
     <div className="bg-white/5 border border-white/10 rounded-2xl p-6 mb-10">

@@ -103,6 +103,7 @@ export default async function ArticleDetailPage({ params }) {
       <div className="relative h-[50vh] min-h-[400px]">
         <img
           src={artigoAtual.coverImage}
+          alt={artigoAtual.title}
           className="w-full h-full  object-cover"
         />
         

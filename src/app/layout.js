@@ -13,14 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Artora - Materiais de Desenho, Arte e Papelaria",
-  description: "Descubra os melhores materiais para desenho, pintura e estudos. Guias completos, avaliações e recomendações para artistas e estudantes.",
+  metadataBase: new URL("https://artora.company"),
+  title: {
+    default: "Artora - Materiais de Desenho, Arte e Papelaria",
+    template: "%s | Artora",
+  },
+  description:
+    "Descubra os melhores materiais de desenho, pintura e papelaria. Explore guias, tutoriais, análises e recomendações para desenvolver sua criatividade e evoluir como artista.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html
-      lang="pt"
+      lang="pt-BR"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       

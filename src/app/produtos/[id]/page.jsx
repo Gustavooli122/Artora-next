@@ -12,10 +12,13 @@ export async function generateMetadata({ params }) {
       description: "Este produto não existe.",
     };
   }
-
+ const url = `https://artora.company/produtos/${product.id}`
   return {
     title: `${product.name} - Artora`,
     description: product.description,
+     alternates: {
+      canonical: `${url}`,
+    }
   };
 }
 

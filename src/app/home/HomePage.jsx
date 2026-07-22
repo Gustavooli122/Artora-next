@@ -133,7 +133,7 @@ const HomePage = () => {
                 <p className="text-gray-600 text-lg">Equipamentos Lápis, canetas, sketchbooks e acessórios favoritos dos artistas</p>
               </div>
               <Link href="/produtos/products" className="hidden md:flex items-center gap-2 text-purple-600 font-semibold hover:gap-3 transition-all">
-                Ver Loja Completa <ArrowRight className="w-5 h-5" />
+                Ver materiais <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
             

@@ -3,19 +3,22 @@ import { CoursePage } from "../../components/coursePage";
 
 export async function generateMetadata({ params }) {
   const { id } = await params;
-
+ 
   const course = getCourseById(id);
-
+   
   if (!course) {
     return {
       title: "Curso não encontrado - Artora",
       description: "Este curso não existe.",
     };
   }
-
+const url = `https://artora.company/course/${course.id}`
   return {
     title: `${course.title} - Artora`,
     description: course.description,
+     alternates: {
+      canonical: `${url}`,
+    }
   };
 }
 

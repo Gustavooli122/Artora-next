@@ -12,6 +12,22 @@ import {
   GraduationCap
 } from 'lucide-react';
 
+export const metadata = {
+  title: "Sobre a Artora",
+  description:
+    "Conheça a Artora, nossa missão e os valores que orientam nossos conteúdos. Descubra como ajudamos artistas e estudantes a encontrar materiais de desenho, papelaria, livros e recursos para desenvolver sua criatividade.",
+  alternates: {
+    canonical: "/about",
+  },
+  openGraph: {
+    title: "Sobre a Artora",
+    description:
+      "Conheça a missão da Artora e descubra como ajudamos artistas e estudantes com conteúdos, recomendações e materiais para desenho e criatividade.",
+    url: "/about",
+    type: "website",
+  },
+};
+
 const AboutPage = () => {
 const values = [
   {

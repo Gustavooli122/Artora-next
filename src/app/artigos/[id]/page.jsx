@@ -25,7 +25,7 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const url = `https://artora-study.vercel.app/artigos/${article.id}`;
+  const url = `https://artora.company/artigos/${article.id}`;
 
   return {
     title: article.title,

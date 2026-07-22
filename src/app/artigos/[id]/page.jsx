@@ -70,8 +70,35 @@ export async function generateMetadata({ params }) {
 }
 export default async function ArticleDetailPage({ params }) {
   const { id } = await params;
-
   const artigoAtual = getArticleById(id)
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: artigoAtual.title,
+  description: artigoAtual.summary,
+  image: [`https://artora.company${artigoAtual.coverImage}`],
+  author: {
+    "@type": "Person",
+    name: artigoAtual.author,
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Artora",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://artora.company/logo.png",
+    },
+  },
+  datePublished: artigoAtual.publicationDate,
+  dateModified: artigoAtual.publicationDate,
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": `https://artora.company/artigos/${artigoAtual.id}`,
+  },
+  articleSection: artigoAtual.category,
+  keywords: artigoAtual.tags.join(", "),
+};
+  
 
   if (!artigoAtual) {
     return (
@@ -97,6 +124,12 @@ export default async function ArticleDetailPage({ params }) {
 
   return (
     <main className="min-h-screen bg-white">
+      <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(schema),
+      }}
+    />
       <Navigation />
 
       {/* HERO */}

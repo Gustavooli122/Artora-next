@@ -381,7 +381,7 @@ Lembre-se: a evolução acontece aos poucos. Guarde seus desenhos antigos e comp
     coverImage: '/imgs/esferaComSombra.png',
     category: 'Aprendizagem',
     summary: 'Aprenda os fundamentos do sombreamento e descubra técnicas essenciais para criar profundidade, contraste e realismo em seus desenhos.',
-    publicationDate:"15-07-2026",
+    publicationDate:"2026-07-15",
     author:'Gustavo Oliveira',
     readTime:"5 min",
     linksArticle: [],
@@ -633,7 +633,7 @@ Guarde seus desenhos antigos. Compará-los após alguns meses é uma das melhore
   category: 'Aprendizagem',
   summary:
     'Aprenda como fazer desenhos 3D utilizando perspectiva, luz e sombra. Um guia completo para iniciantes que desejam criar desenhos com profundidade e realismo.',
-   publicationDate: "16-07-2026",
+   publicationDate: "2026-07-16",
   author: 'Gustavo Oliveira',
   readTime: '7 min',
   tags: [
@@ -1057,7 +1057,7 @@ Bons estudos e bons desenhos! `
     coverImage: '/imgs/imageArticleDicasDeCursos.png',
     category: 'Dicas',
     summary: 'Descubra os melhores cursos de desenho realista da Hotmart em 2026. Compare conteúdo, metodologia, nível de dificuldade, prós e contras para escolher o curso ideal e acelerar sua evolução como artista.',
-    publicationDate:"02-07-2026",
+    publicationDate:"2026-07-02",
     author:'Gustavo Oliveira',
     readTime:"6 min",
     tags: [
@@ -1274,7 +1274,7 @@ Esses dois conteúdos complementam perfeitamente os hábitos apresentados neste 
   summary:
     "Conheça os 10 hábitos dos melhores desenhistas e descubra como desenvolver uma rotina de estudos que acelera a evolução no desenho. Aprenda técnicas utilizadas por artistas profissionais para melhorar seus desenhos.",
 
-  publicationDate: "21-07-2026",
+  publicationDate: "2026-07-21",
   author: "Gustavo Oliveira",
   readTime: "8 min",
 

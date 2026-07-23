@@ -40,9 +40,21 @@ const HomePage = () => {
   description: 'Ferramentas para desenvolver sua arte diariamente'
 }
 ]
-
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Artora",
+  url: "https://artora.company",
+  description: "Descubra os melhores materiais de desenho, pintura e papelaria. Explore guias, tutoriais, análises e recomendações para desenvolver sua criatividade e evoluir como artista."
+};
   return (
       <main className="bg-white">
+          <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(schema),
+      }}
+    />
         <Navigation />
 
         {/* Hero Section */}

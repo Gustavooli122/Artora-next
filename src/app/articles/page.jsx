@@ -10,5 +10,17 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <ArticlesPageClient />;
+  const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Artigos sobre Desenho",
+  "description": "Guias completos sobre desenho, pintura, materiais artísticos e técnicas para artistas iniciantes e profissionais.",
+  "url": "https://artora.company/articles"
+}
+  return <main> <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(schema),
+      }}
+    /><ArticlesPageClient /></main> ;
 }

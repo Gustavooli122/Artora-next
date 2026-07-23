@@ -17,13 +17,13 @@ export const metadata = {
   description:
     "Conheça a Artora, nossa missão e os valores que orientam nossos conteúdos. Descubra como ajudamos artistas e estudantes a encontrar materiais de desenho, papelaria, livros e recursos para desenvolver sua criatividade.",
   alternates: {
-    canonical: "/about",
+    canonical: "/sobre",
   },
   openGraph: {
     title: "Sobre a Artora",
     description:
       "Conheça a missão da Artora e descubra como ajudamos artistas e estudantes com conteúdos, recomendações e materiais para desenho e criatividade.",
-    url: "/about",
+    url: "/sobre",
     type: "website",
   },
 };
@@ -64,7 +64,7 @@ const values = [
 
   return (
     <>
-     
+      
 
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         <Navigation />

@@ -13,11 +13,12 @@ export const initialProducts = [
      `,
 
     price: 30.70,
+    brand: "Daler-Rowney",
     image: 'https://m.media-amazon.com/images/I/81lMs3U2x7L._AC_SL1500_.jpg',
     category: 'Sketchbooks',
     features:{frete:true,garantia:true, qualidade:false},
     rating: 4.8,
-    reviewsCount: "500",
+    reviewsCount: 500,
     affiliate_link: 'https://amzn.to/4ouIjID',
     relatedArticles: [slugify('Os 7 Melhores Sketchbooks para Iniciantes em 2026')]
   },
@@ -32,11 +33,12 @@ export const initialProducts = [
     `,
     name: 'Sketchbook A5 100g/m², Canson, ArTBook One, 98 Folhas',
     price: 42.30,
+    brand: "Canson",
     image: 'https://m.media-amazon.com/images/I/71t5CLhl+ZL._AC_SL1500_.jpg',
     category: 'Sketchbooks',
     rating: 4.8,
      features:{frete:false,garantia:false, qualidade:false},
-    reviewsCount:"12.000",
+    reviewsCount:12.000,
     affiliate_link: 'https://amzn.to/4aNA0ly',
     relatedArticles: [slugify('Os 7 Melhores Sketchbooks para Iniciantes em 2026')]
   },
@@ -51,11 +53,12 @@ export const initialProducts = [
    - Perfeito para estudantes que precisam de bastante espaço para anotações.
     `,
     price: 43.53,
+    brand: "Tilibra",
      features:{frete:false,garantia:false, qualidade:false},
     image: 'https://m.media-amazon.com/images/I/41Y6r0eKP4L._AC_SL1200_.jpg',
     category: 'Cadernos',
     rating: 4.8,
-    reviewsCount: "13.000",
+    reviewsCount: 13.000,
     affiliate_link: 'https://amzn.to/4xwuLR7',
     relatedArticles: []
   },
@@ -70,6 +73,7 @@ export const initialProducts = [
 - Capa dura resistente e espiral para maior praticidade. 
 - Tamanho universitário de 20 x 27,5 cm.`,
     price: 43.53,
+    brand: "Genérico",
      features:{frete:false,garantia:false, qualidade:false},
     image: 'https://m.media-amazon.com/images/I/41HAK6su-CL._AC_SL1000_.jpg',
     category: 'Cadernos',
@@ -91,6 +95,7 @@ Desenhar
 Componentes incluídos	1 Luva para desenho
     `,
     price: 19.90,
+    brand: "Genérico",
     image: 'https://m.media-amazon.com/images/I/61PDY6MbiyL._AC_SL1500_.jpg',
     category: 'Arte digital',
     rating: 4.7,
@@ -111,11 +116,12 @@ Componentes incluídos	1 Luva para desenho
 - Compatível com a maioria das telas capacitivas do mercado.
     `,
     price: 109.74,
+    brand: "MEKO",
     image: 'https://m.media-amazon.com/images/I/61RM7v6s+TL._AC_SL1151_.jpg',
     category: 'Arte digital',
     rating: 4.5,
      features:{frete:false,garantia:false, qualidade:false},
-    reviewsCount: "28.000",
+    reviewsCount: 28.000,
     affiliate_link: 'https://amzn.to/4vRgGw0',
     relatedArticles: []
   },
@@ -130,6 +136,7 @@ Componentes incluídos	1 Luva para desenho
 - Formato portátil de 14 x 21 cm, fácil de transportar.
     `,
     price: 27.90,
+    brand: "Genérico",
     image: 'https://m.media-amazon.com/images/I/41IKH0t9GTL._AC_SL1192_.jpg',
     category: 'Cadernos',
     rating: 4.7,
@@ -151,11 +158,12 @@ Componentes incluídos	1 Luva para desenho
     `
   ,
     price: 10.20,
+    brand: "Faber-Castell",
     image: 'https://m.media-amazon.com/images/I/51Wys+21tmL._AC_SL1000_.jpg',
     category: 'Lapis grafite',
     rating: 4.8,
      features:{frete:false,garantia:false, qualidade:false},
-    reviewsCount: "Mais de 1.000",
+    reviewsCount: 1.000,
     affiliate_link: 'https://amzn.to/449fisC',
     relatedArticles: []
   },{
@@ -172,11 +180,12 @@ Componentes incluídos	1 Luva para desenho
 
     `,
     price: 99.90,
+    brand: "Genérico",
     image: 'https://m.media-amazon.com/images/I/61zyeXZwH6L._AC_SL1325_.jpg',
     category: 'Lapis grafite',
-    rating: "5.0",
+    rating: 5.0,
      features:{frete:false,garantia:false, qualidade:false},
-    reviewsCount: "4",
+    reviewsCount: 4,
     affiliate_link: 'https://amzn.to/449fisC',
     relatedArticles: []
   },
@@ -194,11 +203,12 @@ Componentes incluídos	1 Luva para desenho
 * Excelente opção para quem busca durabilidade e praticidade.`
 ,
     price: 41.58,
+    brand: "Confetti",
     image: 'https://m.media-amazon.com/images/I/61wmTaGXNGL._AC_SL1500_.jpg',
     category: 'Cadernos',
     rating: 4.9,
      features:{frete:false,garantia:false, qualidade:false},
-    reviewsCount: "2.400",
+    reviewsCount: 2.400,
     affiliate_link: 'https://amzn.to/4exEH4f',
     relatedArticles: []
   },
@@ -219,11 +229,12 @@ A **Wacom One CTL-472** é uma mesa digitalizadora desenvolvida para proporciona
 * Excelente opção para iniciantes e profissionais.
 `,
     price: 285.32,
+    brand: "Wacom",
     image: 'https://m.media-amazon.com/images/I/71+xzUu92ZL._AC_SL1500_.jpg',
     category: 'Arte digital',
     rating: 4.8,
     features:{frete:false,garantia:false, qualidade:false},
-    reviewsCount: "20.000",
+    reviewsCount: 20.000,
     affiliate_link: 'https://amzn.to/4a6xUgu',
     relatedArticles: []
   },
@@ -243,11 +254,12 @@ A **Wacom One CTL-472** é uma mesa digitalizadora desenvolvida para proporciona
 * EVITE BORRÕES EXCESSIVOS E MARCAS INDESEJADAS usando o esfuminho como apoio técnico para misturar sombras com mais limpeza do que o uso direto dos dedos no papel.
 `,
     price: 26.01,
+    brand: "Genérico",
     image: 'https://m.media-amazon.com/images/I/51Mo2+rLHGL._AC_SL1254_.jpg',
     category: 'Esfuminhos',
     rating: 4.8,
     features:{frete:false,garantia:false, qualidade:true},
-    reviewsCount: "451",
+    reviewsCount: 451,
     affiliate_link: 'https://link.amazon/B053W44AI',
     relatedArticles: []
   }

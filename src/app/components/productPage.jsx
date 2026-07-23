@@ -124,13 +124,13 @@ const featuresFiltrada = pegarFeature()
                   </div>
                   <div className="flex items-center gap-1 text-yellow-500">
                     <span className="font-bold text-lg">{product.rating}</span>
-                    <span className="text-sm text-gray-500">(`Mais de {product.reviewsCount} avaliações`)</span>
+                    <span className="text-sm text-gray-500">{`Mais de ${product.reviewsCount} avaliações`}</span>
                   </div>
                 </div>
 
-                <p className="text-lg text-gray-600 leading-relaxed mb-8">
+                <div className="text-lg text-gray-600 leading-relaxed mb-8">
                <Markdown contents={product.description}/>
-                </p>
+                </div>
 
                 {/* Features */}
                 <div className="flex flex-wrap gap-4 mb-8">

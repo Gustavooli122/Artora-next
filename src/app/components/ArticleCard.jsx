@@ -24,7 +24,7 @@ const ArticleCard = ({ article }) => {
             ${article.category === 'Treino' ? 'bg-blue-500' : ''}
             ${article.category === 'Aprendizagem' ? 'bg-green-500' : ''}
             ${article.category === 'Dicas' ? 'bg-purple-500' : ''}
-            ${article.category === '' ? 'bg-orange-500' : ''}
+            ${article.category === 'Curiosidade' ? 'bg-orange-500' : ''}
           `}>
             {article.category}
           </span>

@@ -245,7 +245,7 @@ A **Wacom One CTL-472** é uma mesa digitalizadora desenvolvida para proporciona
 
 ### Sombra e Luz Profissional Alta Densidade Ponta Dupla Para Grafite Carvão Pastel Seco Esboço Ilustração
 
-###" Principais Características
+### Principais Características
 
 * SOMBRAS MAIS SUAVES SEM DEPENDER DO DEDO com kit de 6 esfuminhos para espalhar grafite, carvão e pastel seco com mais controle em desenhos realistas, esboços e ilustrações.
 * MAIS PRECISÃO EM LUZ E SOMBRA com pontas duplas de diferentes espessuras que ajudam a trabalhar áreas pequenas, médias e maiores sem perder o acabamento do desenho.

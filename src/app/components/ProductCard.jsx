@@ -33,11 +33,7 @@ const ProductCard = ({ product }) => {
       <div className="text-gray-600 text-sm mb-4 line-clamp-2 overflow-hidden prose prose-sm">
   <Markdown contents={product.description}/>
 </div>
-        <div className="flex items-center justify-between mb-4">
-          <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-            R$ {product.price.toFixed(2)}
-          </div>
-        </div>
+        
 
         <div
           className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-lg hover:shadow-xl hover:scale-105 transition-all duration-300"

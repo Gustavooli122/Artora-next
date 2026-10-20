@@ -119,9 +119,7 @@ const featuresFiltrada = pegarFeature()
                 </h1>
                 
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">
-                    R$ {product.price.toFixed(2)}
-                  </div>
+                 
                   <div className="flex items-center gap-1 text-yellow-500">
                     <span className="font-bold text-lg">{product.rating}</span>
                     <span className="text-sm text-gray-500">{`Mais de ${product.reviewsCount} avaliações`}</span>
